@@ -1,0 +1,345 @@
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotorSpecial: Yamaha vs Ducati vs Kawasaki vs Suzuki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .brand-card:hover .brand-image { transform: scale(1.05); }
+        .tab-active { border-bottom: 2px solid #3b82f6; color: #3b82f6; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200 antialiased selection:bg-blue-500 selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-gray-900/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
+                    <i class="fa-solid fa-motorcycle text-blue-500 text-2xl"></i>
+                    <span class="font-bold text-xl tracking-wider text-white">MOTOR<span class="text-blue-500">SPECIAL</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#inicio" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Inicio</a>
+                        <a href="#marcas" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Las Marcas</a>
+                        <a href="#comparativa" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Tabla Comparativa</a>
+                        <a href="#sonidos" class="hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Sonidos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-gray-800/20 to-gray-900 z-0"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-6">
+                El Duelo Definitivo de las <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-red-500">Superbikes</span>
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto">
+                Analizamos a los cuatro gigantes del motociclismo: Yamaha, Ducati, Kawasaki y Suzuki. Descubre cuál es la marca que domina el asfalto.
+            </p>
+            <div class="mt-10 flex justify-center gap-4">
+                <a href="#marcas" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full transition-all shadow-lg shadow-blue-500/30">Explorar Marcas</a>
+                <a href="#comparativa" class="bg-transparent border border-gray-600 hover:border-gray-400 hover:bg-gray-800 text-white font-semibold py-3 px-8 rounded-full transition-all">Ver Especificaciones</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="marcas" class="py-20 bg-gray-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-white mb-16 border-b border-gray-700 pb-4 inline-block">Conoce a los Contendientes</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Tarjeta Yamaha -->
+                <div class="brand-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 shadow-xl transition-all duration-300 hover:border-blue-500 hover:shadow-blue-900/20">
+                    <div class="overflow-hidden h-48">
+                        <img src="foto-yamaha.jpg" alt="Yamaha R1" class="brand-image w-full h-full object-cover transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative">
+                        <div class="absolute -top-6 right-4 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center border-4 border-gray-800 text-xl"><i class="fa-solid fa-bolt text-white"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Yamaha</h3>
+                        <p class="text-blue-400 text-sm font-semibold mb-4">La Precisión Japonesa</p>
+                        <p class="text-gray-400 text-sm mb-4">Conocida por su fiabilidad excepcional y manejo suave. La serie YZF-R y MT son iconos del motociclismo mundial gracias a su tecnología derivada de MotoGP (motor Crossplane).</p>
+                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
+                            <li><i class="fa-solid fa-check text-blue-500 mr-2"></i> Modelo Insignia: YZF-R1</li>
+                            <li><i class="fa-solid fa-check text-blue-500 mr-2"></i> Estilo: Equilibrio perfecto</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tarjeta Ducati -->
+                <div class="brand-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 shadow-xl transition-all duration-300 hover:border-red-500 hover:shadow-red-900/20">
+                    <div class="overflow-hidden h-48">
+                        <img src="foto-ducati.jpg" alt="Ducati Panigale" class="brand-image w-full h-full object-cover transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative">
+                        <div class="absolute -top-6 right-4 w-12 h-12 bg-red-600 rounded-full flex items-center justify-center border-4 border-gray-800 text-xl"><i class="fa-solid fa-fire text-white"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Ducati</h3>
+                        <p class="text-red-400 text-sm font-semibold mb-4">La Pasión Italiana</p>
+                        <p class="text-gray-400 text-sm mb-4">Diseño premium, exclusividad y potencia bruta. Famosa por sus motores bicilíndricos (ahora V4) y su sistema de distribución desmodrómica único en el mundo.</p>
+                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
+                            <li><i class="fa-solid fa-check text-red-500 mr-2"></i> Modelo Insignia: Panigale V4</li>
+                            <li><i class="fa-solid fa-check text-red-500 mr-2"></i> Estilo: Arte y Velocidad</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tarjeta Kawasaki -->
+                <div class="brand-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 shadow-xl transition-all duration-300 hover:border-green-500 hover:shadow-green-900/20">
+                    <div class="overflow-hidden h-48">
+                        <img src="foto-kawasaki.jpg" alt="Kawasaki Ninja ZX-10R" class="brand-image w-full h-full object-cover transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative">
+                        <div class="absolute -top-6 right-4 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center border-4 border-gray-800 text-xl text-black"><i class="fa-solid fa-wind"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Kawasaki</h3>
+                        <p class="text-green-500 text-sm font-semibold mb-4">El Poder Verde</p>
+                        <p class="text-gray-400 text-sm mb-4">Agresividad y rendimiento puro. Kawasaki se atreve a lo que otros no, como introducir sobrealimentadores (supercargadores) en sus motos de calle con la serie H2.</p>
+                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Modelo Insignia: Ninja ZX-10R</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Estilo: Radical y Potente</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tarjeta Suzuki -->
+                <div class="brand-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 shadow-xl transition-all duration-300 hover:border-yellow-500 hover:shadow-yellow-900/20">
+                    <div class="overflow-hidden h-48">
+                        <img src="foto-suzuki.jpg" alt="Suzuki GSX-R" class="brand-image w-full h-full object-cover transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative">
+                        <div class="absolute -top-6 right-4 w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center border-4 border-gray-800 text-xl text-black"><i class="fa-solid fa-gauge-high"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Suzuki</h3>
+                        <p class="text-yellow-500 text-sm font-semibold mb-4">La Leyenda Accesible</p>
+                        <p class="text-gray-400 text-sm mb-4">Ofrece una increíble relación calidad-precio sin sacrificar rendimiento. La GSX-R es legendaria y la Hayabusa redefinió el concepto de hiperdeportiva para siempre.</p>
+                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
+                            <li><i class="fa-solid fa-check text-yellow-500 mr-2"></i> Modelo Insignia: GSX-R1000</li>
+                            <li><i class="fa-solid fa-check text-yellow-500 mr-2"></i> Estilo: Tradición y Valor</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="comparativa" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-white mb-6">Comparativa Técnica de Superbikes 1000cc</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Comparamos los modelos insignia de litro de cada marca para ver cómo se enfrentan en números crudos.</p>
+            
+            <div class="overflow-x-auto rounded-xl border border-gray-700 shadow-2xl">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-800 border-b border-gray-700">
+                            <th class="p-4 text-gray-300 font-semibold uppercase text-sm w-1/5">Especificación</th>
+                            <th class="p-4 text-white font-bold text-lg w-1/5 bg-blue-900/20"><span class="text-blue-500 border-b-2 border-blue-500 pb-1">Yamaha R1</span></th>
+                            <th class="p-4 text-white font-bold text-lg w-1/5 bg-red-900/20"><span class="text-red-500 border-b-2 border-red-500 pb-1">Ducati Panigale V4</span></th>
+                            <th class="p-4 text-white font-bold text-lg w-1/5 bg-green-900/20"><span class="text-green-500 border-b-2 border-green-500 pb-1">Kawasaki ZX-10R</span></th>
+                            <th class="p-4 text-white font-bold text-lg w-1/5 bg-yellow-900/20"><span class="text-yellow-500 border-b-2 border-yellow-500 pb-1">Suzuki GSX-R1000</span></th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-700 bg-gray-900/50">
+                        <tr class="hover:bg-gray-800/50 transition-colors">
+                            <td class="p-4 text-gray-300 font-medium">Motor</td>
+                            <td class="p-4 text-gray-400">998cc, 4 en línea (Crossplane)</td>
+                            <td class="p-4 text-gray-400">1,103cc, V4 a 90°</td>
+                            <td class="p-4 text-gray-400">998cc, 4 en línea</td>
+                            <td class="p-4 text-gray-400">999.8cc, 4 en línea</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/50 transition-colors">
+                            <td class="p-4 text-gray-300 font-medium">Potencia (HP)</td>
+                            <td class="p-4 text-gray-400">~ 200 hp</td>
+                            <td class="p-4 text-white font-bold">~ 215.5 hp <i class="fa-solid fa-crown text-yellow-500 ml-1 text-xs" title="Mayor Potencia"></i></td>
+                            <td class="p-4 text-gray-400">~ 203 hp</td>
+                            <td class="p-4 text-gray-400">~ 199 hp</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/50 transition-colors">
+                            <td class="p-4 text-gray-300 font-medium">Peso en marcha</td>
+                            <td class="p-4 text-gray-400">201 kg</td>
+                            <td class="p-4 text-white font-bold">198.5 kg <i class="fa-solid fa-crown text-yellow-500 ml-1 text-xs" title="Más Ligera"></i></td>
+                            <td class="p-4 text-gray-400">207 kg</td>
+                            <td class="p-4 text-gray-400">202 kg</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/50 transition-colors">
+                            <td class="p-4 text-gray-300 font-medium">Electrónica</td>
+                            <td class="p-4 text-gray-400">Avanzada (IMU 6 ejes, Slide Control)</td>
+                            <td class="p-4 text-gray-400">Premium (Evo 3, Suspensión Electrónica)</td>
+                            <td class="p-4 text-gray-400">Avanzada (KCMF, Launch Control)</td>
+                            <td class="p-4 text-gray-400">Competente (IMU, VVT Mecánico)</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/50 transition-colors">
+                            <td class="p-4 text-gray-300 font-medium">Precio Relativo</td>
+                            <td class="p-4 text-gray-400">$$$ (Alto)</td>
+                            <td class="p-4 text-gray-400">$$$$ (Muy Alto)</td>
+                            <td class="p-4 text-gray-400">$$$ (Alto)</td>
+                            <td class="p-4 text-white font-bold">$$ (Mejor Valor) <i class="fa-solid fa-crown text-yellow-500 ml-1 text-xs" title="Mejor Precio"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="mt-8 bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-1">¿No estás seguro de cuál elegir?</h4>
+                    <p class="text-gray-400 text-sm">Prueba nuestro simulador rápido de preferencias.</p>
+                </div>
+                <button onclick="recomendarMoto()" class="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 rounded-lg font-bold text-white transition-all transform hover:scale-105 shadow-lg shadow-purple-900/30">
+                    Recomendar una Moto
+                </button>
+            </div>
+            
+            <div id="recomendacion-box" class="mt-4 hidden p-4 rounded-lg border border-green-500 bg-green-900/20 text-center text-green-400 font-medium transition-all">
+                <!-- Se llena con JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="sonidos" class="py-20 bg-gray-900 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-white mb-6">Sinfonía Mecánica</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Sube el volumen. Presiona los botones para escuchar el sonido real característico de cada motocicleta.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Tarjeta Sonido Yamaha -->
+                <button onclick="playEngineSound('yamaha', event)" class="group relative bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all flex flex-col items-center gap-4 hover:bg-gray-800/80 hover:shadow-lg hover:shadow-blue-500/20">
+                    <div class="w-16 h-16 rounded-full bg-blue-900/30 text-blue-500 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-volume-high icon-sound"></i>
+                    </div>
+                    <h3 class="text-white font-bold text-xl">Yamaha R1</h3>
+                    <p class="text-gray-400 text-sm text-center">Motor CP4 Crossplane<br><span class="text-xs italic text-blue-400">Sonido ronco e irregular</span></p>
+                </button>
+
+                <!-- Tarjeta Sonido Ducati -->
+                <button onclick="playEngineSound('ducati', event)" class="group relative bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-red-500 transition-all flex flex-col items-center gap-4 hover:bg-gray-800/80 hover:shadow-lg hover:shadow-red-500/20">
+                    <div class="w-16 h-16 rounded-full bg-red-900/30 text-red-500 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-volume-high icon-sound"></i>
+                    </div>
+                    <h3 class="text-white font-bold text-xl">Ducati Panigale</h3>
+                    <p class="text-gray-400 text-sm text-center">Motor Desmosedici V4<br><span class="text-xs italic text-red-400">Bramido profundo</span></p>
+                </button>
+
+                <!-- Tarjeta Sonido Kawasaki -->
+                <button onclick="playEngineSound('kawasaki', event)" class="group relative bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-green-500 transition-all flex flex-col items-center gap-4 hover:bg-gray-800/80 hover:shadow-lg hover:shadow-green-500/20">
+                    <div class="w-16 h-16 rounded-full bg-green-900/30 text-green-500 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-volume-high icon-sound"></i>
+                    </div>
+                    <h3 class="text-white font-bold text-xl">Kawasaki Ninja</h3>
+                    <p class="text-gray-400 text-sm text-center">Tetracilíndrico en Línea<br><span class="text-xs italic text-green-400">Aullido agudo Screamer</span></p>
+                </button>
+
+                <!-- Tarjeta Sonido Suzuki -->
+                <button onclick="playEngineSound('suzuki', event)" class="group relative bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-yellow-500 transition-all flex flex-col items-center gap-4 hover:bg-gray-800/80 hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="w-16 h-16 rounded-full bg-yellow-900/30 text-yellow-500 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-volume-high icon-sound"></i>
+                    </div>
+                    <h3 class="text-white font-bold text-xl">Suzuki GSX-R</h3>
+                    <p class="text-gray-400 text-sm text-center">Tetracilíndrico VVT<br><span class="text-xs italic text-yellow-500">Aullido metálico</span></p>
+                </button>
+            </div>
+            
+            <div class="mt-8 text-center text-xs text-gray-500">
+                <p><i class="fa-solid fa-headphones mr-1"></i> Audios reales grabados en pista. Requiere tener los archivos MP3 en tu carpeta local.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-950 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-motorcycle text-gray-500 text-xl"></i>
+                <span class="font-bold text-lg text-gray-400 tracking-wider">MOTOR<span class="text-blue-600">SPECIAL</span></span>
+            </div>
+            <p class="text-gray-500 text-sm">© 2026 MotorSpecial. Creado para amantes de la velocidad.</p>
+            <div class="flex gap-4 text-gray-400">
+                <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Función para recomendar una moto aleatoriamente
+        function recomendarMoto() {
+            const recomendaciones = [
+                {
+                    marca: "Yamaha",
+                    texto: "¡Te recomendamos YAMAHA! Perfecta si buscas un balance perfecto, manejabilidad sublime en curvas y el sonido inconfundible del motor Crossplane.",
+                    color: "border-blue-500 bg-blue-900/20 text-blue-400"
+                },
+                {
+                    marca: "Ducati",
+                    texto: "¡Te recomendamos DUCATI! Eres un purista que busca potencia brutal, diseño italiano premium y la exclusividad de un motor V4.",
+                    color: "border-red-500 bg-red-900/20 text-red-400"
+                },
+                {
+                    marca: "Kawasaki",
+                    texto: "¡Te recomendamos KAWASAKI! Lo tuyo es la agresividad, el verde brillante y dominar las rectas con la fiereza de la familia Ninja.",
+                    color: "border-green-500 bg-green-900/20 text-green-400"
+                },
+                {
+                    marca: "Suzuki",
+                    texto: "¡Te recomendamos SUZUKI! Valoras la fiabilidad a prueba de balas, la comodidad para el día a día y la mejor relación potencia-precio.",
+                    color: "border-yellow-500 bg-yellow-900/20 text-yellow-400"
+                }
+            ];
+
+            const botonBox = document.getElementById('recomendacion-box');
+            
+            botonBox.className = "mt-4 p-4 rounded-lg border border-gray-500 bg-gray-800 text-center text-gray-300 font-medium block animate-pulse";
+            botonBox.innerText = "Analizando tu perfil de piloto...";
+            botonBox.classList.remove('hidden');
+
+            setTimeout(() => {
+                const seleccion = recomendaciones[Math.floor(Math.random() * recomendaciones.length)];
+                botonBox.className = `mt-4 p-4 rounded-lg border ${seleccion.color} text-center font-medium block transition-all duration-500`;
+                botonBox.innerHTML = `<strong>${seleccion.marca}</strong><br>${seleccion.texto}`;
+            }, 1000);
+        }
+
+        // Variable global para controlar qué audio suena
+        let reproductorActual = null;
+
+        // Función para reproducir el MP3 local
+        function playEngineSound(brand, event) {
+            // 1. Detener el audio si ya hay uno sonando
+            if (reproductorActual) {
+                reproductorActual.pause();
+                reproductorActual.currentTime = 0;
+            }
+
+            // 2. Animación visual del icono pulsando
+            const icons = document.querySelectorAll('.icon-sound');
+            icons.forEach(i => i.classList.remove('fa-beat-fade'));
+            const clickedIcon = event.currentTarget.querySelector('i');
+            clickedIcon.classList.add('fa-beat-fade');
+            
+            // Detener la animación después de 3 segundos
+            setTimeout(() => clickedIcon.classList.remove('fa-beat-fade'), 3000);
+
+            // 3. Diccionario con los nombres EXACTOS de los archivos que tienes en tu carpeta
+            const audios = {
+                'yamaha': 'yamaha.mp3',
+                'ducati': 'ducati.mp3',
+                'kawasaki': 'kawasaki.mp3',
+                'suzuki': 'suzuki.mp3'
+            };
+
+            // 4. Cargar y reproducir el archivo correspondiente
+            const archivoAudio = audios[brand];
+            reproductorActual = new Audio(archivoAudio);
+            
+            // Iniciar reproducción y manejar errores si el archivo no existe
+            reproductorActual.play().catch(error => {
+                console.error("Error reproduciendo el audio:", error);
+                alert("No se pudo reproducir el sonido. Verifica que el archivo " + archivoAudio + " esté en la misma carpeta que este archivo HTML.");
+            });
+        }
+    </script>
+</body>
+</html>
