@@ -65,7 +65,6 @@ Para que todo funcione correctamente a la primera, la estructura del proyecto de
 👨‍💻 Autor
 CrisLovestar
 Creado con pasión por las motos y el código.
-
 Tu Nombre/Usuario: @TuUsuarioDeGitHub
 
 Si te gustó este proyecto, ¡no olvides dejarle una ⭐ en GitHub!
